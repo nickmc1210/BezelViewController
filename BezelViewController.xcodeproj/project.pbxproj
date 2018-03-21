@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A12E62F9206302630012FDC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E62F8206302630012FDC3 /* AppDelegate.swift */; };
-		A12E62FB206302630012FDC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E62FA206302630012FDC3 /* ViewController.swift */; };
+		A12E62FB206302630012FDC3 /* BezelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E62FA206302630012FDC3 /* BezelViewController.swift */; };
 		A12E62FE206302630012FDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12E62FC206302630012FDC3 /* Main.storyboard */; };
 		A12E6300206302630012FDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12E62FF206302630012FDC3 /* Assets.xcassets */; };
 		A12E6303206302630012FDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12E6301206302630012FDC3 /* LaunchScreen.storyboard */; };
 		A12E630E206302630012FDC3 /* BezelViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E630D206302630012FDC3 /* BezelViewControllerTests.swift */; };
+		A12E6319206307030012FDC3 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E6318206307030012FDC3 /* ExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		A12E62F5206302630012FDC3 /* BezelViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezelViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12E62F8206302630012FDC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A12E62FA206302630012FDC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A12E62FA206302630012FDC3 /* BezelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezelViewController.swift; sourceTree = "<group>"; };
 		A12E62FD206302630012FDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12E62FF206302630012FDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12E6302206302630012FDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		A12E6309206302630012FDC3 /* BezelViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezelViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12E630D206302630012FDC3 /* BezelViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezelViewControllerTests.swift; sourceTree = "<group>"; };
 		A12E630F206302630012FDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12E6318206307030012FDC3 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				A12E62F8206302630012FDC3 /* AppDelegate.swift */,
-				A12E62FA206302630012FDC3 /* ViewController.swift */,
+				A12E62FA206302630012FDC3 /* BezelViewController.swift */,
+				A12E6318206307030012FDC3 /* ExampleViewController.swift */,
 				A12E62FC206302630012FDC3 /* Main.storyboard */,
 				A12E62FF206302630012FDC3 /* Assets.xcassets */,
 				A12E6301206302630012FDC3 /* LaunchScreen.storyboard */,
@@ -199,8 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12E62FB206302630012FDC3 /* ViewController.swift in Sources */,
+				A12E62FB206302630012FDC3 /* BezelViewController.swift in Sources */,
 				A12E62F9206302630012FDC3 /* AppDelegate.swift in Sources */,
+				A12E6319206307030012FDC3 /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
